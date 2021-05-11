@@ -11,7 +11,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -60,13 +60,14 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
+            <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="#book-a-table" class="book-a-table-btn scrollto">Get a qoute</a>
+      <a href="#book-a-table" class="book-a-table-btn scrollto">Get a price estimate</a>
 
     </div>
   </header><!-- End Header -->
@@ -84,8 +85,8 @@
           <div class="carousel-item active" style="background: url(assets/img/product.jpeg);">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown"><span>Making your ideas possible.</span> </h2>
-                <p class="animate__animated animate__fadeInUp">Designs celebrating individual taste and design. </p>
+                <h2 class="animate__animated animate__fadeInDown"><span>Make your ideas possible.</span> </h2>
+                <p class="animate__animated animate__fadeInUp">Turn your ideas possible , turn your house to a home. </p>
                 <div>
                   <a href="#about" class="btn-menu animate__animated animate__fadeInUp scrollto">See More</a>
                 </div>
@@ -97,7 +98,7 @@
           <div class="carousel-item" style="background: url(assets/img/product.jpeg);">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown"><span>Think unique spaces & quality spaces.</span></h2>
+                <h2 class="animate__animated animate__fadeInDown"><span>Think unique & quality spaces.</span></h2>
                 <p class="animate__animated animate__fadeInUp">Finest design and attention to detail. </p>
                 <div>
                   <a href="#about" class="btn-menu animate__animated animate__fadeInUp scrollto">See More</a>
@@ -157,7 +158,7 @@
 
               <p>
               <strong>  Unique Furniture Masters (UFM) </strong> for home and decor was established in 2019 by Mr. Sibusiso Masondo with the carpentry background and Mr. Maqhawe Mpanza with the engineering background. </p>
-            <p><strong>Unique Furniture Masters (UFM) </strong>/are the designers, manufactures and installers of kitchen units, bedroom cupboards, beds, headboards, sideboard, TV stands, vanities and many more. We believe in top quality and comfortable furniture standards.
+            <p><strong>Unique Furniture Masters (UFM) </strong>/are the designers, manufactures and installers of kitchen units, bedroom cupboards, beds, headboards, sideboard, TV stands, vanities and many more. We believe in top quality and elegant furniture standards.
 </p><p>  We comply with valued design and architectural principles to ensure that high levels of comfort and customer satisfactory is achieved. Our skilled and talented staffs are trained to scrupulously interpret customer requirements and convert them to prestigious final products to ensure that satisfaction is guaranteed. We currently operating but not limited to two Provinces Gauteng and Kwa-Zulu Natal Province.
   To turn your house into a home contact us we are just a telephone call away.</p>
 
@@ -250,13 +251,59 @@
 
       </div>
     </section><!-- End Gallery Section -->
+    <section id="team" class="team">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Our <span>Team</span></h2>
+          <!-- <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p> -->
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="assets/img/profile1.jpeg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Sibusiso Ndlovu</h4>
+                <span>065 167 8193</span>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <!-- <div class="pic"><img src="assets/img/profile2.jpeg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Maqhawe Mpanza</h4>
+                <span>Marketing Director</span>
+                  <span>078 635 6384</span>
+              </div> -->
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="assets/img/profile2.jpeg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Maqhawe Mpanza</h4>
+                <span>Marketing Director</span>
+                  <span>078 635 6384</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End team Section -->
 
     <!-- ======= Book A Table Section ======= -->
     <section id="book-a-table" class="book-a-table">
       <div class="container">
 
         <div class="section-title">
-          <h2>Get a <span>qoute</span></h2>
+          <h2>Get a <span>price estimate</span></h2>
           <p>Please fill up the below. A consultant will get back to you.</p>
         </div>
 
@@ -290,15 +337,23 @@
               <input type="text" name="name" class="form-control" id="street" placeholder="Street Address" data-rule="minlen:4" data-msg="">
               <div class="validate"></div>
             </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3">
+            <!-- <div class="col-lg-6 col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="wood" placeholder="Wood Type" data-rule="minlen:4" data-msg="">
+              <div class="validate"></div>
+            </div> -->
+            <div class="col-lg-6 col-md-6 form-group mt-3">
+              <input type="text" class="form-control" name="time" id="wood" placeholder="Wood Type" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-6 col-md-6 form-group mt-3">
               <input type="text" class="form-control" name="time" id="Length" placeholder="Length" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
               <div class="validate"></div>
             </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3">
+            <div class="col-lg-6 col-md-6 form-group mt-3">
               <input type="number" class="form-control" name="width" id="width" placeholder="Width" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
               <div class="validate"></div>
             </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3">
+            <div class="col-lg-6 col-md-6 form-group mt-3">
               <input type="number" class="form-control" name="height" id="height" placeholder="Height" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
               <div class="validate"></div>
             </div>
@@ -331,25 +386,22 @@
 
         <div class="info-wrap">
           <div class="row">
-            <div class="col-lg-3 col-md-6 info">
-              <i class="bi bi-geo-alt"></i>
-              <h4>Location:</h4>
-              <p>Address<br>address</p>
-            </div>
 
-            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+
+            <div class="col-lg-4 col-md-6 info mt-4 mt-lg-0">
               <i class="bi bi-clock"></i>
               <h4>Open Hours:</h4>
-              <p>Monday-Saturday:<br>11:00 AM - 2300 PM</p>
+              <p>Monday-Friday & Sunday:<br>09:00 AM - 18:00 PM</p>
+              <p>Saturday:<br>Closed</p>
             </div>
 
-            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+            <div class="col-lg-4 col-md-6 info mt-4 mt-lg-0">
               <i class="bi bi-envelope"></i>
               <h4>Email:</h4>
-              <p>email<br>email</p>
+              <p>info@uniquefurn-masters.co.za</p>
             </div>
 
-            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+            <div class="col-lg-4 col-md-6 info mt-4 mt-lg-0">
               <i class="bi bi-phone"></i>
               <h4>Call:</h4>
               <p>07651678193<br>07651678193</p>
